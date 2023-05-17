@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Coisa Bunita</title>
+    <link rel="icon" type="image/x-icon" href="imgs/logo.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet"> <!--Fontes-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> <!--Bootstrap-->
+    <link rel="stylesheet" href="css/styles.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script> <!-- Jquery-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script> <!--FontAwesome-->
+    <script src="js/progressibar.min.js"></script> <!--ProgressBar-->
+    <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script> <!--Paralax-->
+
+</head>
+<body>
+   <header>
+    <div class="container" id="nav-container">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a class="navbar-brand" href="index.html">
+                <img id="logo" src="imgs/logo.png" alt="Doce Coisa Bunita"> Doce Coisa Bunita
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbar-links" aria-expanded="false" aria-label="toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" id="home-menu">home</a>
+                    <a class="nav-item nav-link" id="about-menu">Sobre</a>
+                    <a class="nav-item nav-link" id="services-menu">cardapio</a>
+                    <a class="nav-item nav-link" id="contact-menu">contato</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+   </header>
+   <main>
+    <div id="about-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="main-title">Nossa história</h2>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid" src="imgs/about/helleen.png" alt="Quem sou eu?">
+                </div>
+                <div class="col-md-6">
+                    <h3 class="about-title">Quem sou eu?</h3>
+                    <p>Me chamo hellen,minha mae me disse uma vez.</p>
+                    <p>Sempre que eu tinha que fazer um exame, tirar sangue ou tomar uma injeção, e perguntava pra minha mãe se iria doer ela era extremamente honesta e dizia: "vai doer mas você consegue porque vc é forte".</p>
+                    <p>Ela só não sabia como ela estava me preparando com aquela frase.
+                        Levantar de manhã dói mas como ela me pediu eu estou firme, realizando meu (nosso) sonho a cada dia.</p>
+                        <p>Veja nossos diferenciais:</p>
+                        <ul id="about-list">
+                            <li><i class="fas fa-check"></i>melhor atendimento do Brasil</li>
+                            <li><i class="fas fa-check"></i>Rapidez na fabricação</li>
+                            <li><i class="fas fa-check"></i>Matéria prima de excelente qualidade</li>
+                            <li><i class="fas fa-check"></i>Qualidade acima de tudo</li>
+                            <li><i class="fas fa-check"></i>Entrega com metodologia ágil</li>
+                            
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Produtos-->
+    <div id="portfolio-area">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="main-title">Conheça nossos produtos</h3>    
+            </div>
+            <div class="col-md-12" id="filter-btn-box">
+                <button class="main-btn filter-btn  active" id="all-btn">Todos</button>
+                <button class="main-btn filter-btn" id="bolosdec-btn">Bolos Decorativos</button>
+                <button class="main-btn filter-btn" id="bolospsng-btn">Bolos Personagens</button>
+                <button class="main-btn filter-btn" id="candy-btn">Doces</button>
+                <button class="main-btn filter-btn" id="cpck-btn">CupCakes</button>
+            </div>
+            <div class="col-md-4 project-box bolospsng">
+                <img src="imgs/bolos/miranha.png" class="img-fluid" alt="Homem Aranha">
+            </div>
+            <div class="col-md-4 project-box bolospsng">
+                <img src="imgs/bolos/wandinha.png" class="img-fluid" alt="Wandinha">
+            </div>
+            <div class="col-md-4 project-box bolospsngc">
+                <img src="imgs/bolos/religioso.png" class="img-fluid" alt="Nossa Senhora">
+            </div>
+            <div class="col-md-4 project-box bolospsng">
+                <img src="imgs/bolos/real madrid.png" class="img-fluid" alt="Real Madrid">
+            </div>
+            <div class="col-md-4 project-box bolospsng">
+                <img src="imgs/bolos/harry potter.png" class="img-fluid" alt="Harry Potter">
+            </div>
+            <div class="col-md-4 project-box bolospsng">
+                <img src="imgs/bolos/minecraft.png" class="img-fluid" alt="Minecraft">
+            </div>
+            <div class="col-md-4 project-box bolospsng">
+                <img src="imgs/bolos/mario.png" class="img-fluid" alt="Mario">
+            </div>
+            <div class="col-md-4 project-box bolospsng">
+                <img src="imgs/bolos/avanger.png" class="img-fluid" alt="Vingadores">
+            </div>
+            
+        </div>
+       </div> 
+    </div>
+   </main>
+<script src="js/scripts.js"></script>
+</body> 
+</html>

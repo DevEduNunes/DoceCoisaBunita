@@ -1,0 +1,100 @@
+/*Gerais*/
+body {
+    font-family: 'roboto', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    color: #444;
+    font-size: 14px;
+}
+/*navbar*/
+header, .navbar{
+    background-color: #E8B7F8;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 65px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: #fff;
+}
+
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#navbar-links a {
+    color: #FFf;
+}
+
+.navbar-expand-lg .navbar-nav .navbar-link {
+    padding: 1rem .8rem;
+}
+.nav-item.active { 
+    border-bottom: 3px solid #fff;
+}
+/*about*/
+#about-area {
+    background-color: #fff;
+}
+.main-title {
+    color: #444;
+    margin: 25px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+.main-title::after {
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 85px;
+    left: 42.5%;
+}
+.about-title {
+    font-size: 17px;
+    color:#444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: #E8B7F8;
+    margin-right: 15px;
+}
+
+/*Produtos*/
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area
